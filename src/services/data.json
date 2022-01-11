@@ -1,0 +1,37 @@
+[
+  {
+    "type": "email",
+    "title": "Электронная почта",
+    "required": true,
+    "name": "email"
+  },
+  {
+    "type": "text",
+    "title": "Имя",
+    "required": true,
+    "name": "name"
+  },
+  {
+    "type": "text",
+    "title": "Фамилия",
+    "required": true,
+    "name": "surname"
+  },
+  {
+    "type": "number",
+    "title": "Телефон",
+    "name": "phone"
+  },
+  {
+    "type": "select",
+    "title": "Выберите роль",
+    "name": "role",
+    "options": ["Администратор", "Гость", "Сотрудник"]
+  },
+  {
+    "type": "checkbox",
+    "title": "Даю согласие на обработку персональных данных",
+    "required": true,
+    "name": "agree"
+  }
+]
